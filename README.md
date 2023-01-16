@@ -1,24 +1,14 @@
-# README
+# setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+bundle config set path 'vendor/bundle' --local
+bundle install
+```
 
-Things you may want to cover:
+# run spec
 
-* Ruby version
+```
+bundle exec rspec spec
+```
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
