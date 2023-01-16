@@ -17,7 +17,7 @@ bundle exec rspec spec
 ```
 bin/rails s
 
-open 'http://localhost:3000/sample/new'
+open 'http://localhost:3000/samples/new'
 click 'send' button
 
 
