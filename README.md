@@ -12,3 +12,13 @@ bundle exec rspec spec
 ```
 
 
+# check browser
+
+```
+bin/rails s
+
+open 'http://localhost:3000/sample/new'
+click 'send' button
+
+
+```
